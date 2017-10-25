@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDDB34901FA117AA0000FD22 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDB348F1FA117AA0000FD22 /* AppDelegate.m */; };
+		FDDB34931FA117AA0000FD22 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDB34921FA117AA0000FD22 /* ViewController.m */; };
+		FDDB34961FA117AA0000FD22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDB34941FA117AA0000FD22 /* Main.storyboard */; };
+		FDDB34981FA117AA0000FD22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDDB34971FA117AA0000FD22 /* Assets.xcassets */; };
+		FDDB349B1FA117AA0000FD22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDDB34991FA117AA0000FD22 /* LaunchScreen.storyboard */; };
+		FDDB349E1FA117AA0000FD22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDB349D1FA117AA0000FD22 /* main.m */; };
+		FDDB34A81FA117AA0000FD22 /* socketrocketpinnerobjcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDB34A71FA117AA0000FD22 /* socketrocketpinnerobjcTests.m */; };
+		FDDB34B31FA117AA0000FD22 /* socketrocketpinnerobjcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDB34B21FA117AA0000FD22 /* socketrocketpinnerobjcUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDDB34A41FA117AA0000FD22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDDB34831FA117AA0000FD22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDDB348A1FA117AA0000FD22;
+			remoteInfo = socketrocketpinnerobjc;
+		};
+		FDDB34AF1FA117AA0000FD22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDDB34831FA117AA0000FD22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDDB348A1FA117AA0000FD22;
+			remoteInfo = socketrocketpinnerobjc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDDB348B1FA117AA0000FD22 /* socketrocketpinnerobjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = socketrocketpinnerobjc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDB348E1FA117AA0000FD22 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDDB348F1FA117AA0000FD22 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDDB34911FA117AA0000FD22 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDDB34921FA117AA0000FD22 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDDB34951FA117AA0000FD22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDDB34971FA117AA0000FD22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDDB349A1FA117AA0000FD22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDDB349C1FA117AA0000FD22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDDB349D1FA117AA0000FD22 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDDB34A31FA117AA0000FD22 /* socketrocketpinnerobjcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = socketrocketpinnerobjcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDB34A71FA117AA0000FD22 /* socketrocketpinnerobjcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = socketrocketpinnerobjcTests.m; sourceTree = "<group>"; };
+		FDDB34A91FA117AA0000FD22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDDB34AE1FA117AA0000FD22 /* socketrocketpinnerobjcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = socketrocketpinnerobjcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDB34B21FA117AA0000FD22 /* socketrocketpinnerobjcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = socketrocketpinnerobjcUITests.m; sourceTree = "<group>"; };
+		FDDB34B41FA117AA0000FD22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDDB34881FA117AA0000FD22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDB34A01FA117AA0000FD22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDB34AB1FA117AA0000FD22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDDB34821FA117AA0000FD22 = {
+			isa = PBXGroup;
+			children = (
+				FDDB348D1FA117AA0000FD22 /* socketrocketpinnerobjc */,
+				FDDB34A61FA117AA0000FD22 /* socketrocketpinnerobjcTests */,
+				FDDB34B11FA117AA0000FD22 /* socketrocketpinnerobjcUITests */,
+				FDDB348C1FA117AA0000FD22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDDB348C1FA117AA0000FD22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDDB348B1FA117AA0000FD22 /* socketrocketpinnerobjc.app */,
+				FDDB34A31FA117AA0000FD22 /* socketrocketpinnerobjcTests.xctest */,
+				FDDB34AE1FA117AA0000FD22 /* socketrocketpinnerobjcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDDB348D1FA117AA0000FD22 /* socketrocketpinnerobjc */ = {
+			isa = PBXGroup;
+			children = (
+				FDDB348E1FA117AA0000FD22 /* AppDelegate.h */,
+				FDDB348F1FA117AA0000FD22 /* AppDelegate.m */,
+				FDDB34911FA117AA0000FD22 /* ViewController.h */,
+				FDDB34921FA117AA0000FD22 /* ViewController.m */,
+				FDDB34941FA117AA0000FD22 /* Main.storyboard */,
+				FDDB34971FA117AA0000FD22 /* Assets.xcassets */,
+				FDDB34991FA117AA0000FD22 /* LaunchScreen.storyboard */,
+				FDDB349C1FA117AA0000FD22 /* Info.plist */,
+				FDDB349D1FA117AA0000FD22 /* main.m */,
+			);
+			path = socketrocketpinnerobjc;
+			sourceTree = "<group>";
+		};
+		FDDB34A61FA117AA0000FD22 /* socketrocketpinnerobjcTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDDB34A71FA117AA0000FD22 /* socketrocketpinnerobjcTests.m */,
+				FDDB34A91FA117AA0000FD22 /* Info.plist */,
+			);
+			path = socketrocketpinnerobjcTests;
+			sourceTree = "<group>";
+		};
+		FDDB34B11FA117AA0000FD22 /* socketrocketpinnerobjcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDDB34B21FA117AA0000FD22 /* socketrocketpinnerobjcUITests.m */,
+				FDDB34B41FA117AA0000FD22 /* Info.plist */,
+			);
+			path = socketrocketpinnerobjcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDDB348A1FA117AA0000FD22 /* socketrocketpinnerobjc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDDB34B71FA117AA0000FD22 /* Build configuration list for PBXNativeTarget "socketrocketpinnerobjc" */;
+			buildPhases = (
+				FDDB34871FA117AA0000FD22 /* Sources */,
+				FDDB34881FA117AA0000FD22 /* Frameworks */,
+				FDDB34891FA117AA0000FD22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = socketrocketpinnerobjc;
+			productName = socketrocketpinnerobjc;
+			productReference = FDDB348B1FA117AA0000FD22 /* socketrocketpinnerobjc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDDB34A21FA117AA0000FD22 /* socketrocketpinnerobjcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDDB34BA1FA117AA0000FD22 /* Build configuration list for PBXNativeTarget "socketrocketpinnerobjcTests" */;
+			buildPhases = (
+				FDDB349F1FA117AA0000FD22 /* Sources */,
+				FDDB34A01FA117AA0000FD22 /* Frameworks */,
+				FDDB34A11FA117AA0000FD22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDDB34A51FA117AA0000FD22 /* PBXTargetDependency */,
+			);
+			name = socketrocketpinnerobjcTests;
+			productName = socketrocketpinnerobjcTests;
+			productReference = FDDB34A31FA117AA0000FD22 /* socketrocketpinnerobjcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDDB34AD1FA117AA0000FD22 /* socketrocketpinnerobjcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDDB34BD1FA117AA0000FD22 /* Build configuration list for PBXNativeTarget "socketrocketpinnerobjcUITests" */;
+			buildPhases = (
+				FDDB34AA1FA117AA0000FD22 /* Sources */,
+				FDDB34AB1FA117AA0000FD22 /* Frameworks */,
+				FDDB34AC1FA117AA0000FD22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDDB34B01FA117AA0000FD22 /* PBXTargetDependency */,
+			);
+			name = socketrocketpinnerobjcUITests;
+			productName = socketrocketpinnerobjcUITests;
+			productReference = FDDB34AE1FA117AA0000FD22 /* socketrocketpinnerobjcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDDB34831FA117AA0000FD22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Rani Aljondi";
+				TargetAttributes = {
+					FDDB348A1FA117AA0000FD22 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					FDDB34A21FA117AA0000FD22 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDDB348A1FA117AA0000FD22;
+					};
+					FDDB34AD1FA117AA0000FD22 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDDB348A1FA117AA0000FD22;
+					};
+				};
+			};
+			buildConfigurationList = FDDB34861FA117AA0000FD22 /* Build configuration list for PBXProject "socketrocketpinnerobjc" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDDB34821FA117AA0000FD22;
+			productRefGroup = FDDB348C1FA117AA0000FD22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDDB348A1FA117AA0000FD22 /* socketrocketpinnerobjc */,
+				FDDB34A21FA117AA0000FD22 /* socketrocketpinnerobjcTests */,
+				FDDB34AD1FA117AA0000FD22 /* socketrocketpinnerobjcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDDB34891FA117AA0000FD22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDB349B1FA117AA0000FD22 /* LaunchScreen.storyboard in Resources */,
+				FDDB34981FA117AA0000FD22 /* Assets.xcassets in Resources */,
+				FDDB34961FA117AA0000FD22 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDB34A11FA117AA0000FD22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDB34AC1FA117AA0000FD22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDDB34871FA117AA0000FD22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDB34931FA117AA0000FD22 /* ViewController.m in Sources */,
+				FDDB349E1FA117AA0000FD22 /* main.m in Sources */,
+				FDDB34901FA117AA0000FD22 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDB349F1FA117AA0000FD22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDB34A81FA117AA0000FD22 /* socketrocketpinnerobjcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDB34AA1FA117AA0000FD22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDB34B31FA117AA0000FD22 /* socketrocketpinnerobjcUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDDB34A51FA117AA0000FD22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDDB348A1FA117AA0000FD22 /* socketrocketpinnerobjc */;
+			targetProxy = FDDB34A41FA117AA0000FD22 /* PBXContainerItemProxy */;
+		};
+		FDDB34B01FA117AA0000FD22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDDB348A1FA117AA0000FD22 /* socketrocketpinnerobjc */;
+			targetProxy = FDDB34AF1FA117AA0000FD22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDDB34941FA117AA0000FD22 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDDB34951FA117AA0000FD22 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDDB34991FA117AA0000FD22 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDDB349A1FA117AA0000FD22 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDDB34B51FA117AA0000FD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDDB34B61FA117AA0000FD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDDB34B81FA117AA0000FD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = socketrocketpinnerobjc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.socketrocketpinnerobjc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDDB34B91FA117AA0000FD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = socketrocketpinnerobjc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.socketrocketpinnerobjc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDDB34BB1FA117AA0000FD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = socketrocketpinnerobjcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.socketrocketpinnerobjcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/socketrocketpinnerobjc.app/socketrocketpinnerobjc";
+			};
+			name = Debug;
+		};
+		FDDB34BC1FA117AA0000FD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = socketrocketpinnerobjcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.socketrocketpinnerobjcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/socketrocketpinnerobjc.app/socketrocketpinnerobjc";
+			};
+			name = Release;
+		};
+		FDDB34BE1FA117AA0000FD22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = socketrocketpinnerobjcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.socketrocketpinnerobjcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = socketrocketpinnerobjc;
+			};
+			name = Debug;
+		};
+		FDDB34BF1FA117AA0000FD22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = socketrocketpinnerobjcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.socketrocketpinnerobjcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = socketrocketpinnerobjc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDDB34861FA117AA0000FD22 /* Build configuration list for PBXProject "socketrocketpinnerobjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDB34B51FA117AA0000FD22 /* Debug */,
+				FDDB34B61FA117AA0000FD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDDB34B71FA117AA0000FD22 /* Build configuration list for PBXNativeTarget "socketrocketpinnerobjc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDB34B81FA117AA0000FD22 /* Debug */,
+				FDDB34B91FA117AA0000FD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDDB34BA1FA117AA0000FD22 /* Build configuration list for PBXNativeTarget "socketrocketpinnerobjcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDB34BB1FA117AA0000FD22 /* Debug */,
+				FDDB34BC1FA117AA0000FD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDDB34BD1FA117AA0000FD22 /* Build configuration list for PBXNativeTarget "socketrocketpinnerobjcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDB34BE1FA117AA0000FD22 /* Debug */,
+				FDDB34BF1FA117AA0000FD22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDDB34831FA117AA0000FD22 /* Project object */;
+}
