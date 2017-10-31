@@ -14,13 +14,3 @@ Current functionality:
 4. IN ViewController.m: change url string parameter to desired web socket address <Note: HTTP addresses are not valid since SR does not work at that layer.
 5. ViewController.m: change cerPath to contain the name and file extension of certificate you wish to pin to. Note that the certificate format must always be der.
 6. In order to turn off certificate pinning, go to if statement if(certificate) and replace certificate with nil.
-
-
-References recommending against certificate pinning
-
-https://github.com/facebook/SocketRocket/commit/28035e1a98a427853e4038ff1b70479fa8374cfa
-
-https://www.synopsys.com/blogs/software-security/ineffective-certificate-pinning-implementations/
-
-http://www.zdnet.com/article/google-chrome-is-backing-away-from-public-key-pinning-and-heres-why/
-
