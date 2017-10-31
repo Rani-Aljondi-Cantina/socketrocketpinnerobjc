@@ -22,9 +22,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
     
+    // address of web socket you wish to connect to.
     NSURL *url = [[NSURL alloc] initWithString:@"wss://echo.websocket.org"];
+    // name of certificate-note: do not include file extension at the end of the certificate name.
+    NSString *cerPath = [[NSBundle mainBundle] pathForResource:@"github.com" ofType:@"der"];
+    
+    //Current example pair: wss://echo.websocket.org will not connect if certificate is being matched against current certificate "github.com"
+
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:url];
     
     
@@ -46,12 +51,11 @@
      
      
      */
-    NSString *cerPath = [[NSBundle mainBundle] pathForResource:@"github.com" ofType:@"der"];
     NSData *certData = [[NSData alloc] initWithContentsOfFile:cerPath];
     CFDataRef certDataRef = (__bridge CFDataRef)certData;
     SecCertificateRef certRef = SecCertificateCreateWithData(NULL, certDataRef);
     id certificate = (__bridge id)certRef;
-    if (!certificate) {
+    if (certificate) {
         NSLog(@"certificate found");
         [request setSR_SSLPinnedCertificates:@[certificate]];
     }
