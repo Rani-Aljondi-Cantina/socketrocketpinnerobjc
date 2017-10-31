@@ -1,6 +1,24 @@
 # socketrocketpinnerobjc
 An implementation of SocketRocket's (deprecated) certificate pinning option.
 
+https://www.owasp.org/index.php/Certificate_and_Public_Key_Pinning
+
+Investigating ways of using SocketRocket and OkHttp APIs to validate a Certificate Chain based on URL of an intermediate Certificate Authority.
+Important terms:
+Keys: In this document, refers to the chain of public keys enclosed with digital certificate. 
+Certificate Authority (CA): entity that issues digital certificates; this falls into three categories: root, intermediary, and end entity.
+
+Trust chain validation: conventional process of validating certificates,Does not check for CA identifiers the same way certificate pinning does.
+
+Pinned Certificate validation: assigns a specific certificate or public key to an intermediate CA. Client receiving certificate has a copy of certificate(s) that given certificate has to include to be considered valid.
+
+Verdict: best method of certifying that Bose.com is Intermediary Certificate Authority is by Pinned Certificate Validation.
+
+In SocketRocket, can only validate using stored certificates (as opposed to public keys or hashes, options other libraries provide). In addition, if multiple certificates are in pinstore, certificate must include all of them in order to be validated.
+
+In addition, Certificate Pinning is deprecated as of most recent commit to library (see below).
+
+
 Setup: 
 1. Terminal to project root directory
 2. command: "pod install"

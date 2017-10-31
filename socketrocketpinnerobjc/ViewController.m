@@ -32,25 +32,6 @@
 
     NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:url];
     
-    
-    
-    /*Critical section:
-     
-     https://github.com/facebook/SocketRocket/issues/473:
-     Before feature was deprecated, SocketRocket changed multiple certificate behavior from fallback certificates (where certificate needs to match any one of the certificates in the truststore)
-     to all certificates: where all certificates must be valid.
-     This would recommend against pinning more than a single certificate at a time.
-     
-     
-     Functionality: github.com.der does not match certificate of URL, so connection fails. When certificate isn't attached, connection succeeds.
-     
-     In order to test: add
-     
-     Certificates must be in der format.
-     
-     
-     
-     */
     NSData *certData = [[NSData alloc] initWithContentsOfFile:cerPath];
     CFDataRef certDataRef = (__bridge CFDataRef)certData;
     SecCertificateRef certRef = SecCertificateCreateWithData(NULL, certDataRef);
