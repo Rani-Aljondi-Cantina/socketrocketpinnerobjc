@@ -15,6 +15,8 @@
 		FDDB349E1FA117AA0000FD22 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDB349D1FA117AA0000FD22 /* main.m */; };
 		FDDB34A81FA117AA0000FD22 /* socketrocketpinnerobjcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDB34A71FA117AA0000FD22 /* socketrocketpinnerobjcTests.m */; };
 		FDDB34B31FA117AA0000FD22 /* socketrocketpinnerobjcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDB34B21FA117AA0000FD22 /* socketrocketpinnerobjcUITests.m */; };
+		FDDB34C01FA11BF10000FD22 /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDB34C11FA11BF10000FD22 /* SocketRocket.framework */; };
+		FDFE79A41FA7AD5400BA9345 /* github.com.der in Resources */ = {isa = PBXBuildFile; fileRef = FDFE79A31FA7AD5400BA9345 /* github.com.der */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		FDDB34AE1FA117AA0000FD22 /* socketrocketpinnerobjcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = socketrocketpinnerobjcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDDB34B21FA117AA0000FD22 /* socketrocketpinnerobjcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = socketrocketpinnerobjcUITests.m; sourceTree = "<group>"; };
 		FDDB34B41FA117AA0000FD22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDDB34C11FA11BF10000FD22 /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDFE79A31FA7AD5400BA9345 /* github.com.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = github.com.der; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDDB34C01FA11BF10000FD22 /* SocketRocket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A425F9F482919DC3E9E844EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDDB34C11FA11BF10000FD22 /* SocketRocket.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FDDB34821FA117AA0000FD22 = {
 			isa = PBXGroup;
 			children = (
+				FDFE79A31FA7AD5400BA9345 /* github.com.der */,
 				FDDB348D1FA117AA0000FD22 /* socketrocketpinnerobjc */,
 				FDDB34A61FA117AA0000FD22 /* socketrocketpinnerobjcTests */,
 				FDDB34B11FA117AA0000FD22 /* socketrocketpinnerobjcUITests */,
 				FDDB348C1FA117AA0000FD22 /* Products */,
+				A425F9F482919DC3E9E844EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -241,6 +256,7 @@
 				FDDB349B1FA117AA0000FD22 /* LaunchScreen.storyboard in Resources */,
 				FDDB34981FA117AA0000FD22 /* Assets.xcassets in Resources */,
 				FDDB34961FA117AA0000FD22 /* Main.storyboard in Resources */,
+				FDFE79A41FA7AD5400BA9345 /* github.com.der in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

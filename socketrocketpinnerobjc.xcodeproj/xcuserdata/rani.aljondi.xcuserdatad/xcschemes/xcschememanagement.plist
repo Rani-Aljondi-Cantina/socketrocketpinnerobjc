@@ -7,7 +7,25 @@
 		<key>socketrocketpinnerobjc.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>FDDB348A1FA117AA0000FD22</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FDDB34A21FA117AA0000FD22</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FDDB34AD1FA117AA0000FD22</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

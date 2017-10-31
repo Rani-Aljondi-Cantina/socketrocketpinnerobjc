@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <SocketRocket/SRWebSocket.h>
 
 @interface ViewController : UIViewController
 
